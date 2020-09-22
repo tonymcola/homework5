@@ -1,0 +1,11 @@
+public class Description { public static void main(String[] args) 
+
+{
+ {
+  BibleBook book1 = new BibleBook("Matthew", 28, "the gospel of Jesus Christ"); BibleBook book2 = new BibleBook("Mark", 16, "Jesus has risen!"); BibleBook book3 = new BibleBook("John", 3, "Jesus teaches Nicodemus");
+
+    book1.display();
+    book2.display();
+    book3.display();
+ }
+}
